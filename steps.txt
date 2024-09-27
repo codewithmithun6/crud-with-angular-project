@@ -1,0 +1,14 @@
+create student management system in angual
+-------------------------------------------
+1. ng new student_management --no-standalone
+2. ng g c components/student_create
+3. ng g c components/student_list
+4. ng g c components/student_update
+5. ng g c components/student_view
+6. ng g s service/student
+
+
+
+When the project is created it's missing app-routing.module.ts and app.module.ts files, there is only app.routes.ts file. What have changed? Can someone explain me what can I do to get back those missing files?
+
+ng new testAng --no-standalone --routing --ssr=false
